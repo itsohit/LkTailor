@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="coloricon">#ff0000</color>
+    <color name="nf_header_red">#B70101</color>
+    <color name="nf_title_black">#000000</color>
+    <color name="nf_title_grey">#7D7D7D</color>
+    <color name="line">#E3E3E3</color>
+    <color name="Buttonunselect">#D6D6D6</color>
+    <color name="ButtonColor">#DB0000</color>
+    <color name="whitecolor">#ffffff</color>
+    <color name="radio_color">#505050</color>
+    <color name="text_color">#8E8E8E</color>
+    <color name="text_background">#CA0909</color>
+    <color name="header_background">#EDEDED</color>
+    <color name="menu_background">#ff0000</color>
+    <color name="header_text_color">#DD1111</color>
+    <color name="Textcolor_black">#141414</color>
+     <color name="Textcolor_white">#ffffff</color>
+</resources>

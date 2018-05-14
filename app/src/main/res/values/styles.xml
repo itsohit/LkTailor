@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="SuperStyle">
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="SuperStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+   <style name="Base.Widget.design.TabLayout" parent="android:Widget">
+        <item name="android:selectableItemBackground">@drawable/selected_tab</item>
+   </style>
+     <style name="Toolbar_design" >
+            <item name="colorControlNormal">@color/coloricon</item>
+         <item name="android:textColorSecondary">@color/coloricon</item>
+     </style>
+    <style name="textstyle">
+        <item name="android:textStyle" > italic</item>
+    </style>
+    <style name="spinnerText">
+        <item name="android:textColor">@color/whitecolor</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</resources>

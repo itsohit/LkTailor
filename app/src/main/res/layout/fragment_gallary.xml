@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="gridview.sample.test.lktailor.Gallary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Linings"
+        android:textAlignment="center"
+        android:id="@+id/text_linings"
+        android:textSize="@dimen/_22sdp"
+        android:layout_marginTop="5dp"
+        android:textColor="#CE4646"/>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gallary_gridview"
+        android:numColumns="2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="5dp"
+        android:layout_below="@+id/text_linings"></GridView>
+    </RelativeLayout>
+</FrameLayout>

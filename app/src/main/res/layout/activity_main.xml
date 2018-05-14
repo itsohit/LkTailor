@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    tools:context="gridview.sample.test.lktailor.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/logo"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"/>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:layout_below="@+id/logo">
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabMode="fixed"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:tabGravity="fill"
+        app:tabSelectedTextColor="#D00910"
+        app:tabTextColor="#000000"
+        style="@style/Base.Widget.design.TabLayout"
+        app:tabIndicatorColor="#99D00910"
+        android:background="@android:color/transparent"
+        android:id="@+id/tab_layout"></android.support.design.widget.TabLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/view_pager">
+    </android.support.v4.view.ViewPager>
+     </LinearLayout>
+</RelativeLayout>

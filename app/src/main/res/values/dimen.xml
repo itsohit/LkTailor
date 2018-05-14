@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textsize">15dp</dimen>
+    <dimen name="textsize12">12dp</dimen>
+    <dimen name="textsize14">14dp</dimen>
+    <dimen name="textsize16">16dp</dimen>
+    <dimen name="textsize18">18dp</dimen>
+    <dimen name="header44">44dp</dimen>
+    <dimen name="header18">18dp</dimen>
+    <dimen name="textsize24">24dp</dimen>
+    <dimen name="size40">40dp</dimen>
+</resources>

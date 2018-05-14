@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/login_bg"
+    tools:context="gridview.sample.test.lktailor.Register_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_button"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:padding="5dp"
+            android:id="@+id/registration_back_btn"
+            android:src="@drawable/back_arro"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_28sdp"
+            android:layout_weight="0.4"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:id="@+id/registration_loginbtn"
+            android:src="@drawable/login_btn"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/linear_button"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_140sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:src="@drawable/logo"
+        android:padding="@dimen/_10sdp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:id="@+id/image_logo"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginLeft="@dimen/_20sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    android:layout_below="@+id/image_logo"
+    android:background="@drawable/login_from_bg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/user_icon"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/username_signup"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="User name"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="10dp"
+                    android:layout_weight="0.2"
+                    android:id="@+id/et_username_registration"
+                    android:inputType="textPersonName"
+                    android:background="@android:color/transparent"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FE8085"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pass_icon"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/password_signup"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="10dp"
+                    android:layout_weight="0.2"
+                    android:id="@+id/et_password_registration"
+                    android:inputType="textPassword"
+                    android:background="@android:color/transparent"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"/>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FE8085"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pass_icon"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/password_again_signup"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="10dp"
+                    android:layout_weight="0.2"
+                    android:id="@+id/et_password_again_registration"
+                    android:inputType="textPassword"
+                    android:background="@android:color/transparent"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FE8085"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_3sdp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/call_icon"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:padding="@dimen/_2sdp"
+                    android:id="@+id/contact_no_signup"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contact No"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="10dp"
+                    android:layout_weight="0.2"
+                    android:id="@+id/et_contact_no_registration"
+                    android:inputType="phone"
+                    android:background="@android:color/transparent"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FE8085"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_3sdp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/email_icon"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/email_id_signup"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email Id"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="10dp"
+                    android:layout_weight="0.2"
+                    android:id="@+id/et_email_id_registration"
+                    android:inputType="textEmailAddress"
+                    android:background="@android:color/transparent"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FE8085"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/_3sdp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/address_icon"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/address_signup"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Address"
+                    android:textSize="@dimen/_14sdp"
+                    android:padding="10dp"
+                    android:layout_weight="0.2"
+                    android:id="@+id/et_address_registration"
+                    android:inputType="textPostalAddress"
+                    android:background="@android:color/transparent"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#ffffff"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FE8085"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/country_icon"
+                    android:layout_weight="1"
+                    android:id="@+id/country_signup"/>
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/spinnerText"
+                    android:id="@+id/spinner_country"
+                    android:layout_weight="0.2"></Spinner>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#FE8085"></View>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textSize="@dimen/_15sdp"
+                android:padding="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center_horizontal"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:id="@+id/registration_btn"
+                android:background="@drawable/button_login"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

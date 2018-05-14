@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="gridview.sample.test.lktailor.CustomerSerivce">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="3dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_service_text"
+            android:padding="12dp"
+            android:textSize="@dimen/_16sdp"
+            android:layout_marginTop="3dp"
+            android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="You can reach us at:"
+                    android:padding="10dp"
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Contact no: (852)23697278/(852)23697277"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:textSize="@dimen/_10sdp"
+                    android:paddingBottom="5dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email: lktailor@netvigator.com"
+                    android:paddingLeft="10dp"
+                    android:textSize="@dimen/_10sdp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"/>
+        </LinearLayout>
+        </ScrollView>
+</FrameLayout>

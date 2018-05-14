@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="gridview.sample.test.lktailor.ArrayOfImage">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridview_array_of"
+            android:horizontalSpacing="5dp"
+            android:layout_alignParentTop="true"
+            android:numColumns="3"
+            android:layout_above="@+id/text_bottom"
+            android:padding="10dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"></GridView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Choose from a wide \n Array of Fabrics"
+                    android:textSize="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_35sdp"
+                    android:id="@+id/text_bottom"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    />
+        </RelativeLayout>
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:visibility="invisible"
+            android:id="@+id/view_imager"></android.support.v4.view.ViewPager>
+</FrameLayout>

@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">LkTailor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">close</string>
+    <string name="aboutus_title">ABOUT L&amp;K BESPOKE CUSTOM TAILORS IN HONG KONG</string>
+    <string name="aboutus_text">Over 3 decades L&amp;K Custom Tailors in Hong Kong have hand crafted the finest bespoke suits, trousers and shirts at unmatched price. Since 1982 Michael Lalwani &amp; Kenny Mirpuri started and today over 200 skilled hands work round the clock to ensure the quality and delivery on time. No other tailor made suit in Hong Kong or tailor made shirt in Hong Kong can compare our tailor made bespoke suit or our tailor made shirt as ours is exclusively hand cut and hand made for your unique taste &amp; measurement. In a sense it is an network which is created exclusively &amp; uniquely for you. In bespoke couture we personalize your dream suit. Bespoke tailoring gives you a distinctive and iconic approach. L&amp;K Bespoke Custom Tailors maintain a long established connection between craftsmen and client with a keen awareness to silhouette.\n\nWe have large collection of handpicked fabrics from the finest mills from across the world such as from England, France &amp; Italy and many such other international destinations. Our fabrics range from cottons, lines, superfine wools, worsted wools and cashmere blends. The exclusive selections also include Morzoni, Ermenegildo Zegna, Nino Cerruti, Gianni Versace, Givenchy, Valentino, Scabal, Dormeuil, Fintex, Holland &amp; Sherry, Vitale Barberis Canonico and Loro Piana.\n\nOur experienced Master Tailors make frequent trips around the world with their teams to serve our clients who are located worldwide. We book hotels in various cities and convert hotel rooms into a mini bespoke custom tailor shop. There, we invite the clients who are already under appointment with us through our online appointment booking system. Countries we much of the time visit during the year include: Australia, Austria, Belgium, Canada, Finland, France, Germany</string>
+    <string name="customer_service_text">The foremost important asset of L&amp;K Bespoke tailor is our exceptional customers. We believe in providing 100% customer satisfaction and maintain evergreen relation with each of them. We stand among the top 10 tailors in Hong Kong only with the help of our customers and their reviews which makes us one of the popular tailors in Hong Kong.\n\nBest bespoke tailor in Hong Kong ranks so only because of the outstanding customer service. The team consists of skilled tailors and expert stylist who are constantly available to guide you at every stage starting from choosing fabric, designing patterns, understanding right cuts and fit for the body etc. Customer service team is trained with the skills which make them outstanding, skills of being patience, right communication method, in&#8211;depth knowledge about the product range, superb time management and acting skills, tenacity, thoughtful nature to understand customer needs at first go and lastly having a pleasant personality. Our team is happy to answer all your query and needs.\n\nSatisfying the customers is our prime duty, you have been helping us to grow and spread our wings. Your reviews and word&#8211;of&#8211;mouth is an important factor of our growth.We have developed to stand among best custom tailor in Hong Kong,and the credit to reach this heights definitely includes customers.With content customers, we commit to remain the best suit tailor in Hong Kong and equally uphold to be positioned as reasonable tailor in Hong Kong. We offer high level customer service to bring the smile of satisfaction on your face.</string>
+    <string name="tailor">L&amp;K Bespoke Tailor are in the field of tailoring since ages and have successfully grown to be the best custom tailor in Hong Kong. The team and every member together have put in their admirable skills and craftsmanship to position the company among the top ten tailors in Hong Kong. Tailoring to us is not only our job but is the passion we work for and explore new corners.\n\nTailoring in simplest word can be described as a professional work where the craftsman crafts different kinds of materials and fabrics to form a unique piece of product which can be garment section ranging from suits, shirts, trousers to the minute accessory like a tie. The term \'Tailoring\' originally was derived in 1250&#8211;1300 during Middle English period from Anglo French term \'tailier\' meaning \'cut\'. Cloth-wearing gives a whole great scale to tailoring which allows the craftsman to design new patterns and styles for different body types and requirements.\n\nTailoring is practiced and worked out at the expceptional tailor rooms studios of these tailors who use their expertise to either craft or alter the garments with their needle work. L&amp;K Bespoke Tailor is one of the popular tailors in Hong Kong and the tailoring skills of the crew have received fame and appreciation from clients. The incomparable tailoring features make them the best bespoke tailor in Hong Kong highlighting the great fits and finest quality products.\n\n\'Reasonable tailor in Hong Kong\' is just another phrase to appreciate the tailoring services of L&amp;K Bespoke Tailors which offer grade&#8211; A quality at an affordable price. The tailoring workshop at L&#8211;K Bespoke Tailor is not the just a work studio but it\'s the creative studio where we commit to produce unique and fashionable piece of garment.</string>
+    <string name="style_file_para1">With the revolution of social media and people getting hooked onto their cell phones for every minute detail and requirement, fashion is not far lagged behind from our list as it has been our innate desire to put a stylish foot forword. Fashion picks for men define the realms of power dressing with intricate patterns, minimalistic designs and solid color shades doing all the talking elevating his personal</string>
+    <string name="style_file_para2">Here are some wardrobe essentials for men that can make him go no wrong on fashion front:\n\nAfinely crafted black blazer tops the list as it always comes as rescue option for impromptu parties with friends,after office parties and dinner dates. Terms it with blue denims and crisp white shirt for that alluring charm.</string>
+    <string name="style_file_para3">Pocket square or porche with well textured print and design is a must to break the monotony of a monochrome outfit with a pop of color. It compliments well with solid shades like black, blues and whites giving you an edge of style and class.</string>
+    <string name="nf_text_header1">NF-9503-7200</string>
+    <string name="nf_text_header2">NF-9197-6000</string>
+    <string name="nf_text_firstline1">Black Label\nBrown with white Checks</string>
+    <string name="nf_text_firstline2">Black Label Light Blue with white &amp; Grey Checks</string>
+    <string name="nf_text_italic1"><i>100% Superfine Cotton</i></string>
+    <string name="testimonial_para1">The garments you have made for me define my personal style and make me very happy.</string>
+    <string name="testimonial_para2">I just wanted to say hello to you and wish you my best regards.As I often do, I thought of you a few times in the past couple days.I just changed over my closet and took my summer suits and jackets out. In their place, I put the many beautiful fall jackets and suits you have made for me.</string>
+    <string name="testimonial_para3">On September 18th I came to your store in Hong Kong and ordered 2 suits and 5 shirts.Best thing I ever did!Everything came in less than 2 weeks and was perfect.I\'ve never had more comfortable clothes.</string>
+    <string name="testimonial_para4">Not planned,but after experiencing the professional service I ordered 2 suits.Mr Happy was a very enthusiastic sales person.There was 1 fitting needed 2 days later and my suits were ready in 2 days.I could have ordered shirts too, maybe next time.Looking forward visiting them again.</string>
+    <string name="michial_kre"><i><font fgcolor="#FF0000">-Michael Krentzman</font></i></string>
+    <string name="beat_barblel"><i><font fgcolor="#FF0000">-Beat Barblan</font></i></string>
+    <string name="imrich"><i><font fgcolor="#FF0000">-Imrich L</font></i></string>
+    <string name="textparg">Kindly fill-up the form below and we will reply to you as soon as we read your note</string>
+    <string name="firstname"><i>First Name*</i></string>
+    <string name="lastname"><i>Last Name</i></string>
+    <string name="address1"><i>Address 1:</i></string>
+    <string name="address2"><i>Address 2:</i></string>
+    <string name="country"><i>Country:</i></string>
+    <string name="company"><i>Company:</i></string>
+    <string name="email"><i>Email:</i></string>
+    <string name="phone"><i>Phone:</i></string>
+    <string name="fax"><i>Fax:</i></string>
+    <string name="comment"><i>Comment:</i></string>
+    <string name="submit"><i>SUBMIT</i></string>
+    <string name="text01">Place measuring tape around base of neck with one finger space.</string>
+    <string name="text03">Place measuring tape around the stomach with two fingers space and at level over the fullest part of the stomach. Make sure</string>
+    <string name="text02">Place measuring tape around the fullest part of the chest, high up under the arms with two fingers space. Tape should be at level and not so tight.</string>
+    <string name="forget_Password"><u>Forget Password?</u></string>
+    <string name="reset_password">Enter your email address below and we\'ll send you password reset instructions.</string>
+    <string name="reset_password1">Enter your email address and below showing password reset.</string>
+    <string-array name="spinner_country">
+        <item>India</item>
+        <item>China</item>
+        <item>America</item>
+        <item>USA</item>
+        <item>Singapur</item>
+        <item>Spain</item>
+        <item>Macixco</item>
+        <item>Japan</item>
+        <item>Ghana</item>
+        <item>UAE</item>
+        <item>Afganistan</item>
+    </string-array>
+</resources>

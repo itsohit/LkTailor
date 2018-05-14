@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+      <item  android:title="Customer Service"
+            android:id="@+id/menu_customer_service"
+          android:icon="@mipmap/home"></item>
+    <item  android:title="Fabric Page"
+        android:id="@+id/menu_fabric_page"
+        android:icon="@mipmap/fabric"></item>
+    <item  android:title="Gallary"
+        android:id="@+id/menu_gallary"
+        android:icon="@mipmap/gallary"></item>
+    <item  android:title="How to measure"
+        android:id="@+id/menu_how_to_measure"
+        android:icon="@mipmap/howtomeasure"
+        ></item>
+    <item  android:title="Style Book"
+        android:id="@+id/menu_stylebook"
+        android:icon="@mipmap/stylebook"
+        ></item>
+    <item  android:title="Style File"
+        android:id="@+id/menu_stylefile"
+        android:icon="@mipmap/stylebook"
+        ></item>
+    <item  android:title="Tailoring"
+        android:id="@+id/menu_tailoring"
+        android:icon="@mipmap/tailoring"
+        ></item>
+    <!--<item  android:title="Array of Fabric"-->
+        <!--android:id="@+id/menu_arrayoffabric"-->
+        <!--android:icon="@mipmap/fabric"></item>-->
+
+    <item  android:title="Measurement"
+        android:id="@+id/menu_measurement"
+        android:icon="@mipmap/howtomeasure"></item>
+    <item  android:title="Custom Styling"
+        android:id="@+id/menu_customer"
+        android:icon="@mipmap/customerservice"></item>
+    <item  android:title="Product"
+        android:id="@+id/menu_product"
+        android:icon="@mipmap/products"></item>
+
+    <item  android:title="About Us"
+        android:id="@+id/menu_aboutus"
+        android:icon="@mipmap/howtomeasure"></item>
+    <item  android:title="Contact Us"
+        android:id="@+id/menu_contactus"
+        android:icon="@mipmap/customerservice"></item>
+    <item  android:title="Testimonial"
+        android:id="@+id/menu_testimonail"
+        android:icon="@mipmap/testminonal_icon"></item>
+    <!--<item  android:title="Login"-->
+        <!--android:id="@+id/menu_login"></item>-->
+    <!--<item  android:title="Registration"-->
+        <!--android:id="@+id/menu_registration"-->
+        <!--android:icon="@drawable/registration_icon"></item>-->
+    <item  android:title="Logout"
+        android:id="@+id/menu_logout"
+        android:icon="@mipmap/logout_icon"></item>
+
+</menu>

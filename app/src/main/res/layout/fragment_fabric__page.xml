@@ -1,0 +1,154 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="gridview.sample.test.lktailor.Fabric_Page">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear_button"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/shirting"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/disable_button"
+                    android:clickable="true"
+                    android:text="Shirting"
+                    android:textAllCaps="false"
+                    android:textColor="#434343" />
+
+
+                <Button
+                    android:id="@+id/suiting"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/disable_button"
+                    android:text="Suiting"
+                    android:textAllCaps="false"
+                    android:textColor="#434343" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/filter_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.8"
+                    android:background="@drawable/filter_button"
+                    android:drawableRight="@drawable/filter_icon"
+                    android:paddingLeft="10dp"
+                    android:text="Filter"
+                    android:textAllCaps="false"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear_button"
+            android:id="@+id/frame_suiting"></FrameLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginRight="10dp"
+        android:visibility="invisible"
+        android:id="@+id/frame_filterbutton">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/background_filter_option">
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/spinner1"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/spinner_button">
+            </Spinner>
+
+            <Spinner
+                android:layout_height="35dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/spinner2"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/spinner_button">
+            </Spinner>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:hint="Select by Fabric Code"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:background="@drawable/search_button"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
+                android:text="Search"
+                android:id="@+id/search_btn_filter"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/search_button_solid_color"
+                android:textSize="14sp"
+                android:layout_marginBottom="5dp"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>
